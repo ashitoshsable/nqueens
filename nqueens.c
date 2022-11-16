@@ -5,8 +5,8 @@ int board[20],count;
 void print(int n)
 {
 	int i,j;
-	printf("\nSolution %d:",++count);
- 
+	printf("\nSolution %d:\n",++count);
+ 	printf(" ");
 	for(i=1;i<=n;++i)
 		printf(" %d",i);
  
